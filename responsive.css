@@ -1,0 +1,44 @@
+@media screen and (width <= 768px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  /*   section > article:nth-child(2) {
+    width: 100%;
+  }
+
+  section > article:nth-child(N + 3) {
+    width: 40%;
+  } */
+
+  section * article {
+    display: block;
+  }
+
+  section .featured article {
+    width: 100%;
+  }
+
+  section .all {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
